@@ -1,0 +1,89 @@
+# BEGIN WAL
+[colors.primary]
+background = '#0f0f0f'
+foreground = '#dfdfdf'
+
+[colors.cursor]
+text   = '#0f0f0f' # Apply background color to color of text inside cursor
+cursor = '#dfdfdf' # Apply foreground color to color of cursor
+
+[colors.vi_mode_cursor]
+text    = '#0f0f0f' # Same as above
+cursor  = '#dfdfdf'
+
+[colors.search.matches]
+foreground = '#0f0f0f' # Same as above
+background = '#dfdfdf' # Apply bright/white color to bg color of matching search
+
+[colors.search.focused_match]
+foreground = 'CellBackground'
+background = 'CellForeground'
+
+[colors.line_indicator]
+foreground = 'None'
+background = 'None'
+
+[colors.footer_bar]
+foreground = '#9c9c9c'
+background = '#dfdfdf'
+
+[colors.selection]
+text       = 'CellBackground'
+background = 'CellForeground'
+
+[colors.normal]
+black   = '#0f0f0f'
+red     = '#6F1623'
+green   = '#5E5E5E'
+yellow  = '#A11529'
+blue    = '#CF112B'
+magenta = '#E11231'
+cyan    = '#A3A3A3'
+white   = '#dfdfdf'
+
+[colors.bright]
+black   = '#9c9c9c'
+red     = '#6F1623'
+green   = '#5E5E5E'
+yellow  = '#A11529'
+blue    = '#CF112B'
+magenta = '#E11231'
+cyan    = '#A3A3A3'
+white   = '#dfdfdf'
+# END WAL
+
+
+
+[window]
+
+opacity = 1
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark" # "Dark"
+
+[scrolling]
+history               = 65535
+#multiplier            = 3
+
+[font]
+normal                = { family = "JetbrainsMono Nerd Font Mono", style = "Regular" }
+bold                  = { family = "JetbrainsMono Nerd Font Mono", style = "Bold" }
+italic                = { family = "JetbrainsMono Nerd Font Mono", style = "Italic" }
+bold_italic           = { family = "JetbrainsMono Nerd Font Mono", style = "Bold Italic" }
+#size                  = 11.25
+offset                = { x = 0, y = 0 }
+glyph_offset          = { x = 0, y = 0 }
+#builtin_box_drawing   = true
+
+[cursor]
+blink_interval = 500
+unfocused_hollow = true
+thickness = 0.50
+
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"

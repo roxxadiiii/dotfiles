@@ -1,0 +1,53 @@
+# BEGIN WAL
+[colors.primary]
+background = '#040406'
+foreground = '#d3d5d9'
+
+[colors.cursor]
+text   = '#040406' # Apply background color to color of text inside cursor
+cursor = '#d3d5d9' # Apply foreground color to color of cursor
+
+[colors.vi_mode_cursor]
+text    = '#040406' # Same as above
+cursor  = '#d3d5d9'
+
+[colors.search.matches]
+foreground = '#040406' # Same as above
+background = '#d3d5d9' # Apply bright/white color to bg color of matching search
+
+[colors.search.focused_match]
+foreground = 'CellBackground'
+background = 'CellForeground'
+
+[colors.line_indicator]
+foreground = 'None'
+background = 'None'
+
+[colors.footer_bar]
+foreground = '#939597'
+background = '#d3d5d9'
+
+[colors.selection]
+text       = 'CellBackground'
+background = 'CellForeground'
+
+[colors.normal]
+black   = '#040406'
+red     = '#535E5C'
+green   = '#C7543C'
+yellow  = '#ECAD4D'
+blue    = '#385FA6'
+magenta = '#54A0CA'
+cyan    = '#83848A'
+white   = '#d3d5d9'
+
+[colors.bright]
+black   = '#939597'
+red     = '#535E5C'
+green   = '#C7543C'
+yellow  = '#ECAD4D'
+blue    = '#385FA6'
+magenta = '#54A0CA'
+cyan    = '#83848A'
+white   = '#d3d5d9'
+# END WAL
